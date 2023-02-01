@@ -6,11 +6,6 @@ Last week you created a pretty good [Roguelike](https://en.wikipedia.org/wiki/Ro
 It already has some features, but the players have no opportunity to save their games.
 It can be annoying, especially when you have to leave the game suddenly.
 
-The gamer community is begging you for saving functionality and some other new and interesting ideas, such as:
-
-- game sharing between players
-- maps of different sizes
-- player-tracking camera movement
 
 Management is handing out a **prioritized list** of new user stories that must be
 appended to the unfinished stories from last week in your product backlog.
@@ -21,12 +16,6 @@ pick the stories your team can finish in this sprint.
 
 Continue this entertaining project and make our players happier!
 
-## What are you going to learn?
-
-- Serialize objects.
-- Communicate with databases.
-- Write unit tests for your classes.
-- Understand the **Data Access Object** design pattern.
 
 ## Tasks
 
@@ -60,31 +49,3 @@ Continue this entertaining project and make our players happier!
     - Every test class has at least one negative test case (or more, if it is plausible).
     - Code coverage of self-created business logic classes is above 90%.
 
-## General requirements
-
-None
-
-## Hints
-
-- Break down the backlog items into smaller tasks so that you can work in parallel.
-- The given DB schema is only an example. You probably need to alter it,
-  according to the requirements. For example, it doesn't contain any information
-  on the inventory, or on maps discovered by the player.
-- Write as many unit tests as possible to cover your business logic.
-- Set up a test for getting `null` as an argument for methods that take a reference type parameter. These are called negative test cases.
-- Unity C# projects don't support NuGets and direct project references. In order to be able to use the SQL Server
-  classes, take the `System.Data.dll` file from the start repo and put it in the `Assets` subfolder of your Unity project. Upon refreshing the C# solution, you should be able to work with SQL Server databases just fine.
-- Read the value of an environment variable' using `System.GetEnvironmentVariable("VAR_NAME");`.
-- View and edit environment variables in [Visual Studio](https://www.tutorialsteacher.com/core/aspnet-core-environment-variable) and in [Rider](https://blog.jetbrains.com/dotnet/2017/08/23/rundebug-configurations-rider/).
-
-
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Software testing](project/curriculum/materials/pages/general/software-testing.md)
-- <i class="far fa-book-open"></i> [Positive or negative](https://stackoverflow.com/questions/8162423)
-- <i class="far fa-exclamation"></i> [How to design classes](project/curriculum/materials/pages/csharp/how-to-design-classes.md)
-- <i class="far fa-book-open"></i> [Unity Documentaton](https://docs.unity3d.com/Manual/index.html)
-- <i class="far fa-exclamation"></i> [SQL in Visual Studio and CRUD operations](https://alexcodetuts.com/2019/04/26/how-to-connect-sql-server-database-using-c-and-perform-crud-operation-part-1/)
-- <i class="far fa-exclamation"></i> [Obtaining data through SQL DataReader](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/retrieving-data-using-a-datareader)
-- <i class="far fa-exclamation"></i> [JSON.NET](https://www.newtonsoft.com/json)
-- [1-Bit Pack by Kenney](https://kenney.nl/assets/bit-pack)
